@@ -27,3 +27,12 @@ These instructions will help you set up and run the simple Go web server on your
     ``` bash
     go version
 
+3. Build the application:
+    ```bash
+    go build -o webserver -buildvcs=false
+
+4. Run the application:
+    ```bash
+    ./webserver
+    ```
+    This will start the server on http://localhost:8080
